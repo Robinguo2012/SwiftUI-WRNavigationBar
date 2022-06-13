@@ -43,12 +43,12 @@ struct WRDefaultBackButton: View {
         if named != nil {
             return Image(named!)
         } else {
-            return Image(uiImage: isBlack ? wrImg(name: "back_arrow@2x") : wrImg(name: "back_arrow_white@2x"))
+            return Image(isBlack ? "back_arrow@2x" : "back_arrow_white", bundle: Bundle.module)
         }
     }
 
     private func wrImg(name: String, type: String = "png") -> UIImage {
-        return UIImage(named: name, in: Bundle.wrNavigationBarBundle, compatibleWith: nil) ?? UIImage()
+        return UIImage(named: name, in: Bundle.module, compatibleWith: nil) ?? UIImage()
     }
 }
 

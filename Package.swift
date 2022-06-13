@@ -28,6 +28,7 @@ let package = Package(
         .target(
             name: "WRNavigationBar",
             dependencies: [],
+            path: "Sources/WRNavigationBar",
             resources: [
                 .process("Resources")
             ]

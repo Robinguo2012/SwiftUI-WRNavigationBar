@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A91306B265154CC007608DE /* WRNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A91306A265154CC007608DE /* WRNavigationBar.bundle */; };
-		1A91307226515E43007608DE /* Bundle+WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */; };
 		1A91307726516348007608DE /* SetBackButtonImageViewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91307626516348007608DE /* SetBackButtonImageViewName.swift */; };
 		1AA41AE6264FBFC200F286C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */; };
 		1AA41AE8264FBFC200F286C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AE7264FBFC200F286C2 /* SceneDelegate.swift */; };
@@ -16,14 +14,6 @@
 		1AA41AEC264FBFC500F286C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA41AEB264FBFC500F286C2 /* Assets.xcassets */; };
 		1AA41AEF264FBFC500F286C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA41AEE264FBFC500F286C2 /* Preview Assets.xcassets */; };
 		1AA41AF2264FBFC500F286C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA41AF0264FBFC500F286C2 /* LaunchScreen.storyboard */; };
-		1AA41AFD264FC0CF00F286C2 /* WRDefaultTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */; };
-		1AA41AFE264FC0CF00F286C2 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AFC264FC0CF00F286C2 /* WRNavigationBar.swift */; };
-		1AA41B01264FC0D700F286C2 /* WRDefaultBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B00264FC0D700F286C2 /* WRDefaultBackButton.swift */; };
-		1AA41B06264FC1F700F286C2 /* WRHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B05264FC1F700F286C2 /* WRHelper.swift */; };
-		1AA41B09264FC2A200F286C2 /* WRLeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B08264FC2A200F286C2 /* WRLeadingView.swift */; };
-		1AA41B0C264FC2DD00F286C2 /* WRTrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */; };
-		1AA41B0F264FC38B00F286C2 /* WRTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */; };
-		1AA41B13264FC48800F286C2 /* WRBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */; };
 		1AA41B1B265017C100F286C2 /* LeadingAndTrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B1A265017C100F286C2 /* LeadingAndTrailingView.swift */; };
 		1AA41B1E2650198B00F286C2 /* UINavigationController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */; };
 		1AA41B2126501ABB00F286C2 /* ForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B2026501ABB00F286C2 /* ForegroundView.swift */; };
@@ -36,11 +26,10 @@
 		1AA41B3C2650350100F286C2 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3B2650350100F286C2 /* TitleView.swift */; };
 		1AA41B3F2650363A00F286C2 /* TitleSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */; };
 		1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B4226503C5100F286C2 /* DebugView.swift */; };
+		FAC85EF7285342DA00C67E68 /* WRNavigationBar in Frameworks */ = {isa = PBXBuildFile; productRef = FAC85EF6285342DA00C67E68 /* WRNavigationBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A91306A265154CC007608DE /* WRNavigationBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WRNavigationBar.bundle; sourceTree = "<group>"; };
-		1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+WRNavigationBar.swift"; sourceTree = "<group>"; };
 		1A91307626516348007608DE /* SetBackButtonImageViewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBackButtonImageViewName.swift; sourceTree = "<group>"; };
 		1AA41AE2264FBFC200F286C2 /* SwiftUI-WRNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-WRNavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,14 +39,6 @@
 		1AA41AEE264FBFC500F286C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AA41AF1264FBFC500F286C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA41AF3264FBFC500F286C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDefaultTitleView.swift; sourceTree = "<group>"; };
-		1AA41AFC264FC0CF00F286C2 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
-		1AA41B00264FC0D700F286C2 /* WRDefaultBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRDefaultBackButton.swift; sourceTree = "<group>"; };
-		1AA41B05264FC1F700F286C2 /* WRHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRHelper.swift; sourceTree = "<group>"; };
-		1AA41B08264FC2A200F286C2 /* WRLeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRLeadingView.swift; sourceTree = "<group>"; };
-		1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRTrailingView.swift; sourceTree = "<group>"; };
-		1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRTitleView.swift; sourceTree = "<group>"; };
-		1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRBackgroundView.swift; sourceTree = "<group>"; };
 		1AA41B1A265017C100F286C2 /* LeadingAndTrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingAndTrailingView.swift; sourceTree = "<group>"; };
 		1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ex.swift"; sourceTree = "<group>"; };
 		1AA41B2026501ABB00F286C2 /* ForegroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundView.swift; sourceTree = "<group>"; };
@@ -70,6 +51,7 @@
 		1AA41B3B2650350100F286C2 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSearchView.swift; sourceTree = "<group>"; };
 		1AA41B4226503C5100F286C2 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		FAC85EF328532BB700C67E68 /* WRNavigationBar */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WRNavigationBar; path = ../../WRNavigationBar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC85EF7285342DA00C67E68 /* WRNavigationBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +69,10 @@
 		1AA41AD9264FBFC200F286C2 = {
 			isa = PBXGroup;
 			children = (
+				FAC85EF328532BB700C67E68 /* WRNavigationBar */,
 				1AA41AE4264FBFC200F286C2 /* SwiftUI-WRNavigationBar */,
 				1AA41AE3264FBFC200F286C2 /* Products */,
+				FAC85EE8285318D600C67E68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +89,6 @@
 			children = (
 				1AA41AE9264FBFC200F286C2 /* ContentView.swift */,
 				1AA41B18264FEFA200F286C2 /* Demo */,
-				1AA41AFA264FBFDE00F286C2 /* WRNavigationBar */,
 				1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */,
 				1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */,
 				1AA41AE7264FBFC200F286C2 /* SceneDelegate.swift */,
@@ -122,23 +106,6 @@
 				1AA41AEE264FBFC500F286C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1AA41AFA264FBFDE00F286C2 /* WRNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				1A91306A265154CC007608DE /* WRNavigationBar.bundle */,
-				1AA41B05264FC1F700F286C2 /* WRHelper.swift */,
-				1AA41B00264FC0D700F286C2 /* WRDefaultBackButton.swift */,
-				1AA41AFC264FC0CF00F286C2 /* WRNavigationBar.swift */,
-				1AA41B08264FC2A200F286C2 /* WRLeadingView.swift */,
-				1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */,
-				1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */,
-				1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */,
-				1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */,
-				1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */,
-			);
-			path = WRNavigationBar;
 			sourceTree = "<group>";
 		};
 		1AA41B18264FEFA200F286C2 /* Demo */ = {
@@ -160,6 +127,13 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		FAC85EE8285318D600C67E68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +150,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-WRNavigationBar";
+			packageProductDependencies = (
+				FAC85EF6285342DA00C67E68 /* WRNavigationBar */,
+			);
 			productName = "SwiftUI-WRNavigationBar";
 			productReference = 1AA41AE2264FBFC200F286C2 /* SwiftUI-WRNavigationBar.app */;
 			productType = "com.apple.product-type.application";
@@ -203,6 +180,8 @@
 				Base,
 			);
 			mainGroup = 1AA41AD9264FBFC200F286C2;
+			packageReferences = (
+			);
 			productRefGroup = 1AA41AE3264FBFC200F286C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -217,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A91306B265154CC007608DE /* WRNavigationBar.bundle in Resources */,
 				1AA41AF2264FBFC500F286C2 /* LaunchScreen.storyboard in Resources */,
 				1AA41AEF264FBFC500F286C2 /* Preview Assets.xcassets in Resources */,
 				1AA41AEC264FBFC500F286C2 /* Assets.xcassets in Resources */,
@@ -231,29 +209,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA41B06264FC1F700F286C2 /* WRHelper.swift in Sources */,
-				1AA41B0C264FC2DD00F286C2 /* WRTrailingView.swift in Sources */,
-				1A91307226515E43007608DE /* Bundle+WRNavigationBar.swift in Sources */,
-				1AA41AFD264FC0CF00F286C2 /* WRDefaultTitleView.swift in Sources */,
 				1AA41AE6264FBFC200F286C2 /* AppDelegate.swift in Sources */,
 				1AA41AE8264FBFC200F286C2 /* SceneDelegate.swift in Sources */,
 				1AA41B3626502C9900F286C2 /* BackgroundView2.swift in Sources */,
 				1AA41AEA264FBFC200F286C2 /* ContentView.swift in Sources */,
-				1AA41AFE264FC0CF00F286C2 /* WRNavigationBar.swift in Sources */,
 				1AA41B2426501B6C00F286C2 /* BackButtonTapActionView.swift in Sources */,
 				1AA41B2B2650202200F286C2 /* IgnoreTopAreaView.swift in Sources */,
-				1AA41B09264FC2A200F286C2 /* WRLeadingView.swift in Sources */,
 				1A91307726516348007608DE /* SetBackButtonImageViewName.swift in Sources */,
-				1AA41B13264FC48800F286C2 /* WRBackgroundView.swift in Sources */,
 				1AA41B2726501BAF00F286C2 /* HiddenBottomLineView.swift in Sources */,
 				1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */,
 				1AA41B1E2650198B00F286C2 /* UINavigationController+Ex.swift in Sources */,
 				1AA41B3926502DCB00F286C2 /* BackgroundView3.swift in Sources */,
-				1AA41B0F264FC38B00F286C2 /* WRTitleView.swift in Sources */,
 				1AA41B3326502A5300F286C2 /* BackgroundView1.swift in Sources */,
 				1AA41B3C2650350100F286C2 /* TitleView.swift in Sources */,
 				1AA41B3F2650363A00F286C2 /* TitleSearchView.swift in Sources */,
-				1AA41B01264FC0D700F286C2 /* WRDefaultBackButton.swift in Sources */,
 				1AA41B1B265017C100F286C2 /* LeadingAndTrailingView.swift in Sources */,
 				1AA41B2126501ABB00F286C2 /* ForegroundView.swift in Sources */,
 			);
@@ -451,6 +420,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAC85EF6285342DA00C67E68 /* WRNavigationBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WRNavigationBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AA41ADA264FBFC200F286C2 /* Project object */;
 }

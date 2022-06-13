@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct BackgroundView1: View {
     var body: some View {

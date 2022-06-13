@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct HiddenBottomLineView: View {
     var body: some View {

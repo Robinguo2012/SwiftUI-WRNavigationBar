@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct IgnoreTopAreaView: View {
     var body: some View {

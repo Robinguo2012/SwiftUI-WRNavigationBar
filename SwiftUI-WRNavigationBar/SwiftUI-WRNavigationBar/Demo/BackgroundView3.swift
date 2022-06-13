@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct BackgroundView3: View {
     @Environment(\.presentationMode) var presentationMode

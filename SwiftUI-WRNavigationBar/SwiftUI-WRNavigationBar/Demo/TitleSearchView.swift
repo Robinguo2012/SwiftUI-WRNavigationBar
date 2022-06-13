@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct TitleSearchView: View {
     @State var searchText: String = ""

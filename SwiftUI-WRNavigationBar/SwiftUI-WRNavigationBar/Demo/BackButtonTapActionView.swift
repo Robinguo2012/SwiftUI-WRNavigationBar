@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct BackButtonTapActionView: View {
     @Environment(\.presentationMode) var presentationMode
     @State var show = false
     var body: some View {
+        
         WRNavigationBar {
             ListView()
                 .alert(isPresented: $show, content: {

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WRNavigationBar
 
 struct LeadingAndTrailingView: View {
     var body: some View {

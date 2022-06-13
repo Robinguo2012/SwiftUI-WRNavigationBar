@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftui-wrnavigationbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Robinguo2012/SwiftUI-WRNavigationBar.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2a6f2598242f396dc1b3d744da0da86ab13968dd"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -51,7 +51,6 @@
 		1AA41B3B2650350100F286C2 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSearchView.swift; sourceTree = "<group>"; };
 		1AA41B4226503C5100F286C2 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
-		FAC85EF328532BB700C67E68 /* WRNavigationBar */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WRNavigationBar; path = ../../WRNavigationBar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +68,6 @@
 		1AA41AD9264FBFC200F286C2 = {
 			isa = PBXGroup;
 			children = (
-				FAC85EF328532BB700C67E68 /* WRNavigationBar */,
 				1AA41AE4264FBFC200F286C2 /* SwiftUI-WRNavigationBar */,
 				1AA41AE3264FBFC200F286C2 /* Products */,
 				FAC85EE8285318D600C67E68 /* Frameworks */,

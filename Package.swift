@@ -29,6 +29,7 @@ let package = Package(
             name: "WRNavigationBar",
             dependencies: [],
             path: "Sources/WRNavigationBar",
+            exclude: ["SwiftUI-WRNavigationBar","screenshots"],
             resources: [
                 .process("Resources")
             ]

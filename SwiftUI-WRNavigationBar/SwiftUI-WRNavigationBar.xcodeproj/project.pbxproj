@@ -27,7 +27,7 @@
 		1AA41B3F2650363A00F286C2 /* TitleSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */; };
 		1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B4226503C5100F286C2 /* DebugView.swift */; };
 		FAC85EF7285342DA00C67E68 /* WRNavigationBar in Frameworks */ = {isa = PBXBuildFile; productRef = FAC85EF6285342DA00C67E68 /* WRNavigationBar */; };
-		FAC85F3B285726E400C67E68 /* WRNavigationBar in Frameworks */ = {isa = PBXBuildFile; productRef = FAC85F3A285726E400C67E68 /* WRNavigationBar */; };
+		FAC85F3E285727D500C67E68 /* WRNavigationBar in Frameworks */ = {isa = PBXBuildFile; productRef = FAC85F3D285727D500C67E68 /* WRNavigationBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC85EF7285342DA00C67E68 /* WRNavigationBar in Frameworks */,
-				FAC85F3B285726E400C67E68 /* WRNavigationBar in Frameworks */,
+				FAC85F3E285727D500C67E68 /* WRNavigationBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 			name = "SwiftUI-WRNavigationBar";
 			packageProductDependencies = (
 				FAC85EF6285342DA00C67E68 /* WRNavigationBar */,
-				FAC85F3A285726E400C67E68 /* WRNavigationBar */,
+				FAC85F3D285727D500C67E68 /* WRNavigationBar */,
 			);
 			productName = "SwiftUI-WRNavigationBar";
 			productReference = 1AA41AE2264FBFC200F286C2 /* SwiftUI-WRNavigationBar.app */;
@@ -182,7 +182,7 @@
 			);
 			mainGroup = 1AA41AD9264FBFC200F286C2;
 			packageReferences = (
-				FAC85F39285726E400C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */,
+				FAC85F3C285727D500C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */,
 			);
 			productRefGroup = 1AA41AE3264FBFC200F286C2 /* Products */;
 			projectDirPath = "";
@@ -424,7 +424,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FAC85F39285726E400C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */ = {
+		FAC85F3C285727D500C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Robinguo2012/SwiftUI-WRNavigationBar.git";
 			requirement = {
@@ -439,9 +439,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = WRNavigationBar;
 		};
-		FAC85F3A285726E400C67E68 /* WRNavigationBar */ = {
+		FAC85F3D285727D500C67E68 /* WRNavigationBar */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FAC85F39285726E400C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */;
+			package = FAC85F3C285727D500C67E68 /* XCRemoteSwiftPackageReference "SwiftUI-WRNavigationBar" */;
 			productName = WRNavigationBar;
 		};
 /* End XCSwiftPackageProductDependency section */

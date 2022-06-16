@@ -44,7 +44,7 @@ struct WRDefaultBackButton: View {
 //            let path = Bundle.module.path(forResource: named, ofType: "png")
             return Image(named!, bundle: Bundle.module)
         } else {
-            let image = Image(isBlack ? "back_arrow@2x" : "back_arrow_white", bundle: Bundle.module)
+            let image = Image(isBlack ? "back_arrow" : "back_arrow_white", bundle: Bundle.module)
             return image
         }
     }

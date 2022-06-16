@@ -41,7 +41,8 @@ struct WRDefaultBackButton: View {
 
     private func backImage() -> Image {
         if named != nil {
-            return Image(named!)
+//            let path = Bundle.module.path(forResource: named, ofType: "png")
+            return Image(named!, bundle: Bundle.module)
         } else {
             return Image(isBlack ? "back_arrow@2x" : "back_arrow_white", bundle: Bundle.module)
         }
